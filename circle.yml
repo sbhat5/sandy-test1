@@ -1,8 +1,2 @@
-## Customize checkout
-checkout:
-  post:
-    - git submodule sync
-    - git submodule update --init # use submodules
-    
     general:
   build_dir: api
